@@ -111,67 +111,43 @@ body {
         width: 600px;
     }
     .logo {
-        position: absolute;
         width: 70%;
-        top: 50%;
-        left:50%;
-        -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-                transform: translate(-50%,-50%);
     }
     
     .cursor{
         width: 4.5rem;
-        position: absolute;
         top:58%;
         left:70%;
-        -webkit-transform: translateZ(50px) rotate(-10deg);
-                transform: translateZ(50px) rotate(-10deg);
     }
     
     .scroll {
         width: 12rem;
-        position: absolute;
         top:65%;
         left:2%;
-        -webkit-transform: translateZ(-50px) rotate(25deg);
-                transform: translateZ(-50px) rotate(25deg);
     }
     
     .dropdown {
         width: 12rem;
-        position: absolute;
         top:23%;
         left:62%;
-        -webkit-transform: translateZ(-70px);
-                transform: translateZ(-70px);
     }
     
     .radio {
         width: 3rem;
-        position: absolute;
         top:65%;
         left:55%;
-        -webkit-transform: translateZ(-100px);
-                transform: translateZ(-100px);
     }
     
     .grid {
         width: 7rem;
-        position: absolute;
         top: 15%;
         left:8%;
-        -webkit-transform: translateZ(40px);
-                transform: translateZ(40px);
     }
     
     .button {
         width: 5rem;
-        position: absolute;
         top:28%;
         left:35%;
-        -webkit-transform: translateZ(100px) rotate(-35deg);
-                transform: translateZ(100px) rotate(-35deg);
     }
 
     .coming-soon {
@@ -187,67 +163,44 @@ body {
         width: 450px;
     }
     .logo {
-        position: absolute;
         width: 80%;
-        top: 50%;
-        left:50%;
-        -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-                transform: translate(-50%,-50%);
     }
     
     .cursor{
         width: 4rem;
-        position: absolute;
         top:55%;
         left:75%;
-        -webkit-transform: translateZ(50px) rotate(-10deg);
-                transform: translateZ(50px) rotate(-10deg);
+
     }
     
     .scroll {
         width: 10rem;
-        position: absolute;
         top:65%;
         left:2%;
-        -webkit-transform: translateZ(-50px) rotate(25deg);
-                transform: translateZ(-50px) rotate(25deg);
     }
     
     .dropdown {
         width: 10rem;
-        position: absolute;
         top:26%;
         left:63%;
-        -webkit-transform: translateZ(-70px);
-                transform: translateZ(-70px);
     }
     
     .radio {
         width: 3rem;
-        position: absolute;
         top:60%;
         left:55%;
-        -webkit-transform: translateZ(-100px);
-                transform: translateZ(-100px);
     }
     
     .grid {
         width: 6rem;
-        position: absolute;
         top: 20%;
         left:5%;
-        -webkit-transform: translateZ(40px);
-                transform: translateZ(40px);
     }
     
     .button {
         width: 5rem;
-        position: absolute;
         top:28%;
         left:35%;
-        -webkit-transform: translateZ(100px) rotate(-35deg);
-                transform: translateZ(100px) rotate(-35deg);
     }
 
     .coming-soon {
@@ -262,70 +215,43 @@ body {
         width: 300px;
     }
     .logo {
-        width:480px;
-    }
-    .logo {
-        position: absolute;
         width: 90%;
-        top: 50%;
-        left:50%;
-        -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-                transform: translate(-50%,-50%);
     }
     
     .cursor{
         width: 2.5rem;
-        position: absolute;
         top:55%;
         left:75%;
-        -webkit-transform: translateZ(50px) rotate(-10deg);
-                transform: translateZ(50px) rotate(-10deg);
     }
     
     .scroll {
         width: 8rem;
-        position: absolute;
         top:61%;
         left:0%;
-        -webkit-transform: translateZ(-50px) rotate(25deg);
-                transform: translateZ(-50px) rotate(25deg);
     }
     
     .dropdown {
         width: 7rem;
-        position: absolute;
         top:34%;
         left:65%;
-        -webkit-transform: translateZ(-70px);
-                transform: translateZ(-70px);
     }
     
     .radio {
         width: 2.5rem;
-        position: absolute;
         top:60%;
         left:55%;
-        -webkit-transform: translateZ(-100px);
-                transform: translateZ(-100px);
     }
     
     .grid {
         width: 5rem;
-        position: absolute;
         top: 25%;
         left:0%;
-        -webkit-transform: translateZ(40px);
-                transform: translateZ(40px);
     }
     
     .button {
         width: 3rem;
-        position: absolute;
         top:35%;
         left:35%;
-        -webkit-transform: translateZ(100px) rotate(-35deg);
-                transform: translateZ(100px) rotate(-35deg);
     }
 
     .coming-soon {
