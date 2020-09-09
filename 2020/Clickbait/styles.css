@@ -1,0 +1,465 @@
+@font-face {
+	font-family: 'KrabbyPatty';
+	src:  url('./assets/Krabby\ Patty.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar {
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	height: 70px;
+	font-family: 'KrabbyPatty';
+	font-size: 5rem;
+}
+
+.nav-options {
+	margin-left: 40px;
+	font-size: 4rem;
+}
+
+.nav-about {
+	margin-left: 20px;
+}
+
+/* SECTION 1 */
+
+.main-1 {
+	height: 100%;
+	width: 100%;
+	background-color: #a7ffe9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: -1;
+	text-align: center;
+}
+
+
+
+.clickbait {
+	font-size: 14rem;
+	letter-spacing: 2rem;
+	font-family: 'KrabbyPatty', sans-serif;
+}
+
+.date {
+	font-size: 4rem;
+	font-family: 'KrabbyPatty', sans-serif;	
+}
+
+.roller-gif-big  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 35vw;
+	height: 100%;
+	z-index: 100;
+}
+
+.roller-gif-small {
+	position: absolute;
+	top: 0;
+	display: none;
+	height: 100%;
+	width: 120vw;
+	z-index: 100;
+}
+
+/* SECTION ABOUT */
+.main-about {
+	height: 100%;
+	width: 100%;
+	background-color: #a7ffe9;
+	text-align: center;
+	position: relative;
+	font-family: 'KrabbyPatty';
+}
+
+.inner-main-about {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 50%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: justify;
+}
+
+.heading-about {
+	font-size: 10rem;
+}
+
+.about-content {
+	font-size: 2.5rem;
+	font-family: 'Montserrat';
+}
+
+/* SECTION 2 */
+
+.main-2 {
+	height: 100%;
+	width: 100%;
+	background-color: #a7ffe9;
+	text-align: center;
+	position: relative;
+	font-family: 'KrabbyPatty';
+}
+
+.inner-main-2 {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 80%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.speaker-heading {
+	font-size: 10rem;
+	margin-top: -50px;
+}
+
+.speakers-div {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -50px;
+}
+
+.speaker-name {
+	font-size: 5rem;
+	margin-bottom: 10px;
+}
+
+.designation{
+	font-size: 3rem;
+	margin-bottom: 10px;
+	font-family: 'Montserrat';
+}
+
+.speaker-img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.company-logo {
+	height: 50px;
+}
+
+/* SECTION 3 */
+.main-3 {
+	height: 100%;
+	width: 100%;
+	background-color: #a7ffe9;
+	text-align: center;
+	position: relative;
+	font-family: 'KrabbyPatty';
+}
+
+.inner-main-3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	height: 80%;
+}
+
+.sponsors {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.heading-div{
+	margin-bottom: 100px;;
+}
+
+.sponsor img {
+	height: 18rem;
+}
+
+.matic {
+	height: 15rem;
+}
+
+
+/* SECTION 4 */
+
+.main-4 {
+	height: 100%;
+	width: 100%;
+	background-color: #a7ffe9;
+	text-align: center;
+	position: relative;
+	font-family: 'KrabbyPatty';
+}
+
+.inner-main-4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 5rem;
+	height: 90%;
+	width: 100%;
+	margin-top: -4rem;
+}
+
+.contact-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: -30rem;
+	width: 90%;
+	font-family: 'Montserrat';
+	font-size: 3rem;
+}
+
+.phone {
+	text-align: left;
+}
+
+.phone > * {
+	margin-bottom: 15px;
+}
+
+.logos {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+
+.logos img {
+	margin-right: 10px;
+	height: 5rem;
+	cursor: pointer;
+}
+
+.phone,
+.social-media {
+	height: 18rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.social-media {
+	justify-content: flex-start;
+}
+
+.csi-logo {
+	position: absolute;
+	bottom: 20px;
+	left:50%;
+	transform: translateX(-50%);
+	height: 5rem;
+}
+
+.vl {
+	border-left: 6px solid black;
+	height: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 50%;
+	}
+
+	.roller-gif-big {
+		width: 40vw;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	html {
+		font-size: 42%;
+	}
+
+	.clickbait {
+		margin-right: 40px;
+	}
+
+	.date {
+		margin-right: 40px;
+	}
+
+	.speaker-img {
+		height: 250px;
+		width: 250px;
+	}
+
+	.company-logo {
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	html {
+		font-size: 35%;
+	}
+
+	.roller-gif-big {
+		display: none;
+	}
+
+	.roller-gif-small {
+		display: inline-block;
+		position: absolute;
+		width: 100%;
+	}
+
+	.clickbait {
+		margin-right: 0px;
+	}
+
+	.date {
+		margin-right: 0px;
+	}
+
+	.nav-about {
+		color: black;
+	}
+
+	.nav-left {
+		font-size: 7rem
+	}
+
+	.nav-right {
+		font-size: 6.5rem
+	}
+
+	
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 28%;
+	}
+
+	.inner-main {
+		margin-top: 20px;
+	}
+
+	.speaker-img {
+		height: 150px;
+		width: 150px;
+	}
+
+	.speakers-div {
+		flex-direction: column;
+		margin-top: -30px;
+	}
+
+	.speaker-2 {
+		margin-top: 20px;
+	}
+
+	.speaker-1 {
+		margin-top: 40px;
+	}
+
+	.speaker-heading {
+		margin: 20px 0;
+	}
+
+	.company-logo {
+		height: 20px;
+	}
+
+	.heading-div {
+		margin-top: 90px;
+	}
+
+	.sponsors {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: -50px;
+	}
+
+	.sponsor img {
+		height: 20rem;
+	}
+	
+	.matic {
+		height: 23rem;
+	}
+
+	.inner-main-about {
+		height: 30%;
+		width: 70%;
+	}
+
+	.about-content {
+		font-size: 3.5rem;
+		margin-top: 20px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+	html {
+		font-size: 22%;
+	}
+
+	.speaker-img {
+		height: 120px;
+		width: 120px;
+	}
+
+	.contact-content {
+		flex-direction: column;
+		height: 50%;
+		width: 50%;
+	}
+
+	.vl {
+		display: none;
+	}
+}
