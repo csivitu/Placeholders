@@ -3,6 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Description -->
+	<meta name="Description"
+		content="One of the biggest design events in graVITas, Clickbait is always something to look forward to. Now in its third edition, the event has come a long way from introducing concepts of graphic design and we aspire to make it bigger and better than before.">
+	<!-- Keywords -->
+	<meta name="Keywords"
+		content="csi,csi-vit,devspace,vit,laser tag,under the hood,clickbait,subg,yuvana,send codez,computer society of india,csivit,csivitu,lasertag,sendcodez,wrapped,vellore,chapter,uth,techex,ctf,ffcs,ffcs.ooo,ctf.csivit">
+	<!-- Google Analytics end-->
+	<meta name="author" content="CSIVIT" />
+	<meta property="og:title" content="CLICKBAIT" />
+	<meta name="twitter:description" property="og:description" itemprop="description"
+		content="Biggest design event of gravitas" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://clickbait.csivit.com" />
+	<meta property="og:image" content="./assets/favicon.png" />
+	<link rel="shortcut icon" type="image/jpg" href="./assets/favicon.png"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
@@ -21,12 +37,13 @@
 		</div>	
 	</div>
 	<div id="fullpage">
-		<div class="section">
+		<div class="section section-1">
 			<div class="main-1" id="main--1">
-				<div class="inner-main">
+				<div class="inner-main inner-main-top">
 					<h1 class="clickbait">Clickbait</h1>
 					<h2 class="date">3rd OCTOBER 2020</h2>
-				</div>		
+				</div>
+				<button class="register-button"><a href="http://info.vit.ac.in/gravitas2020/wks_events_reg.asp" target="_blank">REGISTER</a></button>
 			</div>
 			<img src="./assets/roller-gif-small.gif" alt="" class="roller-gif-small">
 			<img src="./assets/roller-gif-desktop.gif" alt="" class="roller-gif-big">
@@ -41,7 +58,7 @@
 						One of the biggest design events in graVITas, Clickbait is always something to look forward to. Now in its third edition, the event has come a long way from introducing concepts of graphic design and we aspire to make it bigger and better than before.
 						<br/><br/>
 						This year, we plan on centering on and in an 8 hour event held on 3rd October. Starting in the afternoon with two talk sessions by reputed speakers from the industry followed by a fun competition with lucrative cash prizes.
-					</div>
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -87,6 +104,9 @@
 						</div>
 						<div class="sponsor">
 							<img src="./assets/zubi.png" alt="Zubi">
+						</div>
+						<div class="sponsor imli-logo">
+							<img src="./assets/imli.png" alt="Imli">
 						</div>
 					</div>
 				</div>
@@ -150,6 +170,17 @@
 		} // End if
 	});
 	});
+	</script>
+	<script>
+		function registerEnable() {
+			setTimeout(function(){
+				document.querySelector('.main-1').style.zIndex="2";
+				const smallRoller = document.querySelector('.roller-gif-small');
+				smallRoller.parentNode.removeChild(smallRoller);
+				console.log('removed');
+			},2000)
+		};
+		registerEnable();
 	</script>
 </body>
 </html>
