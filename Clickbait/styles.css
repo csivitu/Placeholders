@@ -88,6 +88,30 @@ a {
 	z-index: 100;
 }
 
+.register-button-div {
+	margin-top: 20rem;
+}
+
+.register-button {
+	background-color: transparent;
+	padding: 1.5rem 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	border: 0.5rem solid black;
+	cursor: pointer;
+	margin-top: 60px;
+	transition: 0.2s all;
+}
+
+.register-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.register-button:active {
+	transform: translateY(0px);
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+}
 /* SECTION ABOUT */
 .main-about {
 	height: 100%;
@@ -214,11 +238,15 @@ a {
 }
 
 .sponsor img {
-	height: 18rem;
+	height: 15rem;
 }
 
 .matic {
 	height: 15rem;
+}
+
+.imli-logo {
+	margin-left: 4rem;
 }
 
 
@@ -439,6 +467,18 @@ a {
 	.about-content {
 		font-size: 3.5rem;
 		margin-top: 20px;
+	}
+
+	.imli-logo {
+		margin-left: 0;
+	}
+
+	.heading-div {
+		display: none;
+	}
+
+	.inner-main-3 {
+		margin-top: 30px;
 	}
 
 }
